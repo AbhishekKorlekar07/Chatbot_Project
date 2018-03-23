@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/abhishekkorlekar/tensorFlow/weatherChatbot/model.tflearn"
+all_model_checkpoint_paths: "/home/abhishekkorlekar/tensorFlow/weatherChatbot/model.tflearn"

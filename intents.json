@@ -1,0 +1,28 @@
+{"intents":[
+			{"tag" : "greeting",
+			"patterns" : ["Hi","How are you", "Is anyone there?","Hello","Good day"],
+			"responses": ["Hello thanks for visiting", "Good to see you again","Hello! How can i help you"],
+			"context_set" : ""
+			},
+			{"tag" : "goodbye",
+			"patterns" : ["Bye","See you later","Goodbye","It was nice meeting you","Thank you for this information"],
+			"responses": ["See you later","Thanks for visiting"],
+			"context_set" : ""
+			},
+			{"tag" : "weather",
+			"patterns" : ["what is the weather information?","may i know the weather status ?","can i know the weather information","weather in city","whats the weather in","whats the forecast for"],
+			"responses": ["May i know the name of the city? followed by the city keyword","can you please specify the name of the city, followed by city keyword","Sure! You can type 'what is the weather in city name'"],
+			"context_set" : "cityName"
+			},
+			{"tag" : "cityName",
+			"patterns" : ["city","The name of the city is", "city name is","What is the weather in city","its city","Can i know the weather in city"],
+			"responses": ["Thats an amazing city. Should i get the weather information for this?"],
+			"context_set" : ""
+			},
+			{"tag" : "tempreture",
+			"patterns" : ["what is the tempreture?","may i know the tempreture in ?","can i know the tempreture","tempreture in city","whats the tempreture in","whats the tempreture for"],
+			"responses": ["May i know the name of the city? followed by the city keyword","can you please specify the name of the city, followed by city keyword","Sure! You can type 'what is the tempreture in city name'"],
+			"context_set" : "cityName"
+			}			
+
+]}
